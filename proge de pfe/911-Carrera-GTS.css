@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+    font-family: "Rajdhani", sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #88898cc3;
+}
+
+.product-gallery {
+    text-align: center;
+}
+
+.main-image img {
+    width: 1080px;
+    height: auto;   
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.main-image{
+    width: 1081px;
+    margin-left: 21px;
+}
+
+.thumbnail-images {
+    display: flex;
+    margin-left: 23px;
+}
+
+.thumbnail {
+    width: 125px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.header-div {
+    width: 1397px;
+    height: 82px;
+    margin-left: 61px;
+}
+
+.porsche-header {
+    margin-left: 42%;
+    margin-top: 30px;
+}
+
+.Price-bord{
+    width: 371px;
+    height: auto;
+    margin-left: 23px; 
+    border-radius: 5px;
+    background-color: #dcdbdb;
+    margin-bottom: 5px;
+}
+
+.flix{
+    display: flex;
+}
+
+.line-1{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.line-2{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.Vanadium-Grey-Metallic{
+    background-color: #88898cc3;
+}
+
+.White{
+    background-color: #fefefe;
+}
+
+.color{
+    height: 44px;
+    width: 151px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+
+.Black{
+    background-color: black;
+}
+
+.Slate-Grey-Neo{
+    background-color: #4E4E53;
+}
+.havar.active {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease-in-out; 
+}
+.Request{
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    height: 44px;
+    width: 160px;
+    margin-left: 20px;
+}
+.Contact{
+    border-radius: 4px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    height: 44px;
+    width: 160px;
+    margin-left: 20px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Sign-up.css">
+</head>
+
+<body class="body">
+    <div class="header-div">
+        <img src="images/porschelogo.png" class="porsche-header" width="210px" height="14px" />
+    </div>
+    <div class="signup-container">
+        <form method="post" class="form">
+            <h1>
+                Sign Up
+            </h1>
+            <input type="text" name="first_name" placeholder="First name" required>
+            <input type="text" name="last_name" placeholder="Last name" required>
+            <input type="date" name="birth_date" placeholder="Select your birth date" required>
+            <select name="country" required>
+                <option value="" disabled selected>
+                    Choose your country
+                </option>
+                <option value="" disabled selected>
+                    Choose your country
+                </option>
+            </select>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+            <div class="checkbox-container">
+                <input type="checkbox" id="privacy_policy" name="privacy_policy" required>
+                <label for="privacy_policy">Agree to our <a href="" style="color: rgb(255, 255, 255);font-family: 'Rajdhani', sans-serif;">Privacy Policy</a></label>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="subscribe_newsletter" name="subscribe_newsletter">
+                <label for="subscribe_newsletter">Subscribe to newsletter</label>
+            </div>
+            <a href="index.html">
+                <button type="button" onclick="redirectToPage()">
+                    Create account
+                </button>
+            </a>
+        </form>
+    </div>
+    <script src="">
+
+    </script>
+</body>
+
+</html>
